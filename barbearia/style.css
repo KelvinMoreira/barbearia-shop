@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2? family= Sora:wght@100;200;300;400;500;600;700;800 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgba(6,18,30,0.1), #06121e), url(img/bg.svg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-header{
+    padding: 46.13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.botao-agendar{
+    width: 167px;
+    height: 38px;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1.4px solid #bcbcbc;
+}
+
+.logo-header{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.texto-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 74px;
+}
+
+.estilo{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'inter', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.horario-um{
+    color: white;
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    margin-top: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}   
+
+.botao-maior-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.botao-maior-header-perso{
+    width: 292px;
+    height: 66px;
+    background-color: #D94140;
+    font-size: 24px ;
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.retangulo-um{
+    background-color: #06121e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+}
+
+.imagem-retangulo-um{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.textos-retangulo-um{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.h2-reta-um{
+    color: white;
+    font-family: 'inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+.p-reta-um{
+    color: white;
+    font-family: 'inter', sans-serif;
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.horario-dois{
+    color: white;
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}  
+
+.retangulo-branco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: auto;
+    height: 780px;
+}
+
+.h2-reta-branco{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'inter', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #06121e;
+}
+
+.p-reta-branco{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    gap: 24px;
+}
+
+.servico{
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow:  0px -1px 17px -1px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.informacao-servico{
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preco{
+    width: 101px;
+    height: 34px;
+    background-color: #D94140;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.venha{
+    color: #06121e;
+    font-family: 'inter', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 140px;
+}
+
+.parte-mapa{
+    background-image: url(img/Rectangle\ 471.png);
+    margin-top: -20px;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.rodape{
+    background-color: #06121e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons-nav-roda{
+    padding: 46px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo-footer{
+    margin-top: -35px;
+}
+
+.copy{
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
