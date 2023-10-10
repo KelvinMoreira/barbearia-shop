@@ -55,7 +55,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 74px;
+    padding-top: 50px;
 }
 
 .estilo{
@@ -248,4 +248,88 @@ header{
     color: white;
     font-weight: 700;
     margin-bottom: 40px;
+}
+
+@media(max-width: 430px){
+
+    .nav-header{
+        display: none;
+    }
+
+    .logo-header{
+        margin-top: 2px;
+        width: 120px;
+        margin-left: 130px;
+    }
+
+    .texto-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .estilo{
+        font-size: 35px;
+        width: 400px;
+    }
+
+    .horario-um{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .botao-maior-header{
+        margin-top: 33px;
+    }
+
+    .botao-maior-header-perso{
+        width: 250px;
+        height: 55px;
+        background-color: #D94140;
+        font-size: 20px ;
+        color: white;
+        font-family: 'inter', sans-serif;
+        font-weight: 700;
+        border-radius: 3px;
+        border: 1px solid white;
+    }
+
+    .retangulo-um{
+     flex-direction: column;
+    }
+
+    .imagem-retangulo-um{
+        width: 370px;
+        padding-left: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        /* margin-top: 60px; */
+    }
+
+    .textos-retangulo-um{
+        align-items: center;
+        width: 370px;
+        margin-left: 27px;
+    }
+
+    .textos-retangulo-um{
+        margin-top: -30px;
+        padding-top: -50px;
+    }
+
+    .horario-dois{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .textos-reta-branco{
+        padding-top: 50px;
+    }
+
+    .servicos{
+        flex-direction: column;
+        padding-top: 150px;
+    }
 }
